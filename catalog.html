@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b32">
+  <meta name="description" content="معاينة توضيحية لكتالوج متجر عبر رَف: عرض المنتجات والأسعار والعروض في رابط واحد.">
+  <title>نموذج الكتالوج — رَف</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body class="catalog-demo-body">
+  <div class="demo-notice">
+    <span class="demo-notice-label">معاينة توضيحية</span>
+    <span>اسم المتجر والصور والمنتجات والأسعار أمثلة وليست بيانات متجر حقيقي.</span>
+    <a href="index.html">العودة إلى رَف <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header container catalog-header">
+    <a class="brand" href="index.html" aria-label="رَف، الصفحة الرئيسية">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">رَف</span>
+    </a>
+    <nav class="main-nav catalog-nav" aria-label="التنقل داخل الكتالوج">
+      <a href="#products">المنتجات</a>
+      <a href="#offers">العروض</a>
+    </nav>
+    <a class="button button-dark header-cta" href="index.html#join">أنشئ كتالوجك <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main class="container catalog-demo-main">
+    <section class="shop-identity" aria-label="معلومات المتجر التجريبي">
+      <div class="shop-avatar" aria-hidden="true">ي</div>
+      <div class="shop-identity-copy">
+        <div class="shop-name-line"><h1>بوتيك ياسمين</h1><span class="demo-status">متجر تجريبي</span></div>
+        <p>ملابس نسائية واختيارات يومية</p>
+      </div>
+      <div class="shop-location"><span aria-hidden="true">⌖</span> بسكرة، الجزائر</div>
+    </section>
+
+    <section class="catalog-hero" aria-labelledby="catalog-hero-title">
+      <div class="catalog-hero-copy">
+        <span class="catalog-eyebrow">اختيارات الموسم</span>
+        <h2 id="catalog-hero-title">قطع تحبّينها،<br><span>وأسعار واضحة.</span></h2>
+        <p>تصفّحي مجموعة المتجر واختاري ما يناسبك. كل المنتجات والأسعار في مكان واحد، من دون الحاجة إلى البحث بين الصور والرسائل.</p>
+        <a class="button button-dark" href="#products">تصفّحي المنتجات <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="catalog-hero-image">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85" alt="صورة توضيحية لأزياء في متجر" fetchpriority="high">
+        <span class="image-note">صورة توضيحية</span>
+        <div class="hero-image-tag"><span>✳</span><div><strong>إطلالات مختارة</strong><small>نموذج لواجهة المتجر</small></div></div>
+      </div>
+    </section>
+
+    <nav class="category-list" aria-label="أقسام المنتجات">
+      <span class="category-label">تصفّحي حسب القسم</span>
+      <a href="#clothing">ملابس</a>
+      <a href="#bags">حقائب</a>
+      <a href="#accessories">إكسسوارات</a>
+    </nav>
+
+    <section class="offers-section" id="offers" aria-labelledby="offers-title">
+      <div class="section-heading-row">
+        <div>
+          <span class="catalog-section-kicker">المميز هذا الأسبوع</span>
+          <h2 id="offers-title">عروض المتجر</h2>
+          <p>هذا القسم اختياري؛ يظهر في كتالوج المتجر عندما تُضيف عروضًا.</p>
+        </div>
+        <span class="demo-chip">عرض تجريبي</span>
+      </div>
+      <div class="offers-grid">
+        <article class="offer-card">
+          <div class="offer-image"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=80" alt="حقيبة نسائية، صورة توضيحية" loading="lazy"><span class="discount-label">خصم 15٪</span></div>
+          <div class="offer-info"><span class="offer-type">عرض توضيحي</span><h3>حقيبة كلاسيكية</h3><div class="price-line"><strong>3,570 دج</strong><del>4,200 دج</del></div></div>
+        </article>
+        <article class="offer-card">
+          <div class="offer-image"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="إطلالة ملابس، صورة توضيحية" loading="lazy"><span class="discount-label">خصم 10٪</span></div>
+          <div class="offer-info"><span class="offer-type">عرض توضيحي</span><h3>إطلالة يومية</h3><div class="price-line"><strong>3,150 دج</strong><del>3,500 دج</del></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="products-section" id="products" aria-labelledby="products-title">
+      <div class="section-heading-row">
+        <div>
+          <span class="catalog-section-kicker">اكتشفي المجموعة</span>
+          <h2 id="products-title">منتجاتنا</h2>
+          <p>مثال على عرض الصور والأسماء والأسعار بصورة واضحة ومنظمة.</p>
+        </div>
+        <span class="products-count">6 منتجات تجريبية</span>
+      </div>
+      <div class="catalog-products-grid">
+        <article class="catalog-product" id="clothing">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" alt="إطلالة ملابس عصرية" loading="lazy"><span class="product-category-tag">ملابس</span></div>
+          <div class="catalog-product-info"><h3>طقم الموسم</h3><p>اختيار أنيق للإطلالات اليومية</p><strong>5,800 دج</strong></div>
+        </article>
+        <article class="catalog-product">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" alt="ملابس معروضة في متجر" loading="lazy"><span class="product-category-tag">ملابس</span></div>
+          <div class="catalog-product-info"><h3>إطلالة يومية</h3><p>تصميم بسيط يسهل تنسيقه</p><strong>3,500 دج</strong></div>
+        </article>
+        <article class="catalog-product" id="bags">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80" alt="حقيبة نسائية" loading="lazy"><span class="product-category-tag">حقائب</span></div>
+          <div class="catalog-product-info"><h3>حقيبة كلاسيكية</h3><p>قطعة عملية للاستخدام اليومي</p><strong>4,200 دج</strong></div>
+        </article>
+        <article class="catalog-product">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80" alt="ملابس معروضة" loading="lazy"><span class="product-category-tag">ملابس</span></div>
+          <div class="catalog-product-info"><h3>سترة خفيفة</h3><p>تصميم مناسب لأيام الموسم</p><strong>4,900 دج</strong></div>
+        </article>
+        <article class="catalog-product" id="accessories">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=600&q=80" alt="إكسسوارات، صورة توضيحية" loading="lazy"><span class="product-category-tag">إكسسوارات</span></div>
+          <div class="catalog-product-info"><h3>إكسسوار أنيق</h3><p>لمسة بسيطة لإطلالتك</p><strong>1,500 دج</strong></div>
+        </article>
+        <article class="catalog-product">
+          <div class="catalog-product-image"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80" alt="حقيبة يد، صورة توضيحية" loading="lazy"><span class="product-category-tag">حقائب</span></div>
+          <div class="catalog-product-info"><h3>حقيبة صغيرة</h3><p>حجم عملي ولمسة هادئة</p><strong>3,200 دج</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="catalog-cta" aria-labelledby="catalog-cta-title">
+      <div class="catalog-cta-mark" aria-hidden="true">رَف</div>
+      <div class="catalog-cta-copy"><h2 id="catalog-cta-title">هل تريد كتالوجًا لمتجرك بهذا الشكل؟</h2><p>رَف يساعدك على عرض منتجاتك وأسعارك في رابط واحد سهل المشاركة.</p></div>
+      <a class="button button-primary" href="https://forms.gle/PUT_YOUR_FORM_LINK_HERE">سجّل اهتمامك <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer container catalog-footer">
+    <a class="brand footer-brand" href="index.html" aria-label="رَف، الصفحة الرئيسية"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-name">رَف</span></a>
+    <p>منتجات محلك، في رابط واحد.</p>
+    <a href="index.html" class="back-to-top">العودة إلى الصفحة الرئيسية ↑</a>
+    <small>هذه معاينة تصميمية — المتجر والمنتجات والأسعار غير حقيقية.</small>
+  </footer>
+</body>
+</html>
